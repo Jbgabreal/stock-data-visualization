@@ -6,54 +6,49 @@ This project demonstrates how to extract, clean, and visualize historical stock 
 
 - Extract historical stock data from Yahoo Finance using `yfinance`
 - Clean and process data using `pandas`
-- Generate meaningful visualizations using `matplotlib`
-- Compare trends and analyze performance across multiple companies
+- Generate visualizations using `plotly`
+- Save results as HTML and PNG
+
+## 📘 Notebook Sections
+
+- [`1_data_extraction.ipynb`](notebooks/1_data_extraction.ipynb) – Load stock and revenue data  
+- [`2_data_cleaning.ipynb`](notebooks/2_data_cleaning.ipynb) – Clean and transform datasets  
+- [`3_visualization.ipynb`](notebooks/3_visualization.ipynb) – Plot and save graphs (HTML + PNG)
 
 ## 🛠️ Tools and Libraries
 
 - Python
 - pandas
 - yfinance
-- matplotlib
 - plotly
 - requests
 - bs4 (BeautifulSoup)
 
-## 📊 Features
-
-- Download daily stock prices for multiple tickers
-- Handle missing data
-- Plot closing prices and volumes
-- Compare trends between different companies
-
 ## 📁 Project Structure
 
 ```
-Final Assignment.ipynb   # Main Jupyter notebook containing all code and visualizations
-requirements.txt         # Required packages
-README.md                # Project documentation
+notebooks/
+├── 1_data_extraction.ipynb
+├── 2_data_cleaning.ipynb
+├── 3_visualization.ipynb
+outputs/
+visuals/
+requirements.txt
+README.md
 ```
 
 ## 📌 How to Run
 
 1. Clone the repository
-2. Install required packages with `pip install -r requirements.txt`
-3. Open the notebook with Jupyter or VS Code
-4. Run all cells to reproduce the analysis
-
-## 🔍 Sample Output
-
-- Line chart of stock prices over time
-- Bar chart of stock volumes
-- Annotated graphs comparing trends between companies
+2. Install packages: `pip install -r requirements.txt`
+3. Open and run the notebooks in order from `notebooks/`
 
 ## 🧠 Learning Outcome
 
-This project helped reinforce concepts in:
-- Data extraction using APIs
-- Data wrangling with pandas
-- Data visualization using matplotlib
+- Use of public data sources (Yahoo Finance, web tables)
+- Data cleaning and transformation
+- Charting and exporting results for reporting
 
 ---
 
-> 📚 Part of the IBM Skills Network Final Assignment
+> 📚 Final Assignment for IBM Skills Network's Python for Data Science
