@@ -15,6 +15,9 @@ This project demonstrates how to extract, clean, and visualize historical stock 
 - [`2_data_cleaning.ipynb`](notebooks/2_data_cleaning.ipynb) – Clean and transform datasets  
 - [`3_visualization.ipynb`](notebooks/3_visualization.ipynb) – Plot and save graphs (HTML + PNG)
 
+> ⚠️ GitHub may not render large notebooks reliably.  
+> 👉 [View Final Assignment in nbviewer](https://nbviewer.org/github/Jbgabreal/stock-data-visualization/blob/main/notebooks/Final%20Assignment.ipynb)
+
 ## 🛠️ Tools and Libraries
 
 - Python
@@ -31,6 +34,7 @@ notebooks/
 ├── 1_data_extraction.ipynb
 ├── 2_data_cleaning.ipynb
 ├── 3_visualization.ipynb
+├── Final_Assignment_gitfriendly.ipynb
 outputs/
 visuals/
 requirements.txt
